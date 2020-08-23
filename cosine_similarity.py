@@ -1,3 +1,9 @@
+"""
+Author: Matthew Ivler
+Given an SVD where each line is the vector representation of a term and a features file 
+where each line has 1 term which corresponds to same line in the svd file,
+this finds the desired number of terms with vectors most similar to the desired word set. 
+"""
 import math
 import heapq
 
