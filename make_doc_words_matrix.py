@@ -1,3 +1,8 @@
+"""
+Author: Matthew Ivler
+Creates a matrix of terms-to-documents and a singular value decomposition where each line represents a term
+and the vector of that term.
+"""
 import glob
 import numpy as np
 from scipy import sparse
